@@ -1,0 +1,3 @@
+Todo List Application: Create a simple to-do list application with Spring Boot, where users can add, update, and delete tasks.
+
+Certainly! Here's a simple example of a Todo List Application using Spring Boot. In this example, we'll create a RESTful API for managing tasks (todos) with basic CRUD operations (Create, Read, Update, Delete) and use an in-memory H2 database for storage.

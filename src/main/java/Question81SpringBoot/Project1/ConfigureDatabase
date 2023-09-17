@@ -1,0 +1,15 @@
+Configure your application properties (application.properties or application.yml) to use the H2 in-memory database or any other database of your choice:
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
