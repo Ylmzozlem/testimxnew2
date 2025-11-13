@@ -1,0 +1,8 @@
+Employee Management System
+Requirements:
+1.   Database Setup: Set up a database (e.g., MySQL, PostgreSQL, SQLite) to store employee records. You can create a table named employees with fields like id, first_name, last_name, email, salary, and hire_date.
+2.  Java Application: Create a Java application that provides the following functionalities:
+·      Add Employee: Allow users to add a new employee to the database. Collect information such as first name, last name, email, salary, and hire date from the user and insert it into the database.
+·      View Employees: Display a list of all employees in the database, including their details. You can implement pagination if there are many records.
+·      Update Employee: Allow users to update the information of an existing employee. They should be able to search for an employee by ID and update their information.
+·      Delete Employee: Provide an option to delete an employee by ID.
